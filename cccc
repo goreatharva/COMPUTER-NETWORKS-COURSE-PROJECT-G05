@@ -1,0 +1,22 @@
+Usually, this means that the POP3 is used
+   to allow a workstation to retrieve mail that the server is holding
+   for it.
+
+   When the user agent on a client host wishes to enter a message
+      into the transport system, it establishes an SMTP connection to
+      its relay host
+
+         Initially, the server host starts the POP3 service by listening on
+   TCP port 110.  When a client host wishes to make use of the service,
+   it establishes a TCP connection with the server host.  When the
+   connection is established, the POP3 server sends a greeting.  The
+   client and POP3 server then exchange commands and responses
+   (respectively) until the connection is closed or aborted.
+
+      Commands in the POP3 consist of a keyword possibly followed by an
+   argument.  All commands are terminated by a CRLF pair.
+
+      Responses in the POP3 consist of a success indicator and a keyword
+   possibly followed by additional information.  All responses are
+   terminated by a CRLF pair.  There are currently two success
+   indicators: positive ("+OK") and negative ("-ERR").
