@@ -8,8 +8,7 @@ This project implements a TCP-based multithreaded POP3 mail server in C++. It al
 
 ### Video Demonstration
 
-Watch the demonstration of the project here:
-[![Watch the video](https://img.youtube.com/vi/TVybTI8ME1s/0.jpg)](https://youtu.be/TVybTI8ME1s)
+YouTube link to demonstration: [Watch the video](https://youtu.be/TVybTI8ME1s)
 
 ### Features
 
